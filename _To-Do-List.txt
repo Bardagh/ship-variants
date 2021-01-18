@@ -1,71 +1,35 @@
-Work out cheapest effective outfit loadouts for following ships, edit bare-bones-ships.txt to reflect same:
-	Kestrel
-	Aerie
-	Arrow
-	Auxiliary
-	Auxiliary (Cargo)
-	Auxiliary (Transport)
-	Bactrian
-	Barb
-	Behemoth
-	Berserker
-	Blackbird
-	Bounder
-	Bulk Freighter
-	Carrier
-	Class C Freighter
-	Corvette
-	Cruiser
+Add an event which changes the smallest ships to use the new combination engine created for the Barb when said ship is released:
+	Aerie?
+	Arrow?
 	Dagger
-	Dreadnought
-	Dropship
-	Falcon
-	Finch
-	Firebird
+	Berserker?
+	Bounder?
+	Dagger
 	Flivver
-	Freighter
-	Frigate
 	Fury
-	Gunboat
-	Hauler
-	Hauler II
-	Hauler III
-	Hawk
-	Headhunter
+	Hawk?
+	Headhunter?
 	Heavy Shuttle
-	Kestrel
-	Lance
-	Leviathan
-	Manta
-	Modified Argosy
-	Mule
-	Nest
-	Osprey
-	Protector
-	Quicksilver
-	Rainmaker
-	Raven
-	Roost
-	Scout
-	Skein
+	*Lance
+	Quicksilver?
+	Raven?
+	Scout?
+	Shuttle
 	Sparrow
-	Splinter
 	Star Barge
-	Star Queen
-	Vanguard
+	Surveillance Drone (stock/basic version, no variant)
 	Wasp
-	
-Put following ships in events; remove from sales if necessary:
-	Barb
-	Boxwing
-	Dreadnought
-	Dreadnought variant w/ Stack Core (after SC is available)
-	Finch
-	Hauler III
-	Kestrel (not in sales; make entry from scratch)
-	Lance
-	Nest
-	Roost
-	Skein
+*confirmed
+		Already handled by vanilla event:
+			Barb
+			Boxwing
+			Finch
 
-Build & place used/deprecated ships with degraded base stats; add shipyards on some planets that only sell used ships
+Separate plugin: Build & place used/deprecated ships with degraded base stats; add shipyards on some planets that only sell used ships. Use this, then rebuild the shipyard:
+		shipyard clear
+
+Separate plugin: makes licensed ships available at 5x price without a license on select pirate worlds (identical variant with higher hull price). Add description addendums to variants of vanilla ships which previously could not be purchased.
+
+	Misc. tweaks:
+* Add nitrogen cooling to Valhalla
+* Change Bactrian license to be granted on defeating pirate king for the Deep. Other bactrian missions could give shield regenerators, advanced weapons (Project Hawking), ionic afterburners.
