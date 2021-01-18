@@ -1,0 +1,71 @@
+Work out cheapest effective outfit loadouts for following ships, edit bare-bones-ships.txt to reflect same:
+	Kestrel
+	Aerie
+	Arrow
+	Auxiliary
+	Auxiliary (Cargo)
+	Auxiliary (Transport)
+	Bactrian
+	Barb
+	Behemoth
+	Berserker
+	Blackbird
+	Bounder
+	Bulk Freighter
+	Carrier
+	Class C Freighter
+	Corvette
+	Cruiser
+	Dagger
+	Dreadnought
+	Dropship
+	Falcon
+	Finch
+	Firebird
+	Flivver
+	Freighter
+	Frigate
+	Fury
+	Gunboat
+	Hauler
+	Hauler II
+	Hauler III
+	Hawk
+	Headhunter
+	Heavy Shuttle
+	Kestrel
+	Lance
+	Leviathan
+	Manta
+	Modified Argosy
+	Mule
+	Nest
+	Osprey
+	Protector
+	Quicksilver
+	Rainmaker
+	Raven
+	Roost
+	Scout
+	Skein
+	Sparrow
+	Splinter
+	Star Barge
+	Star Queen
+	Vanguard
+	Wasp
+	
+Put following ships in events; remove from sales if necessary:
+	Barb
+	Boxwing
+	Dreadnought
+	Dreadnought variant w/ Stack Core (after SC is available)
+	Finch
+	Hauler III
+	Kestrel (not in sales; make entry from scratch)
+	Lance
+	Nest
+	Roost
+	Skein
+
+Build & place used/deprecated ships with degraded base stats; add shipyards on some planets that only sell used ships
