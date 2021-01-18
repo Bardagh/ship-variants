@@ -1,0 +1,58 @@
+# Copyright (c) 2021 by Lee Davis Holder ("Bardagh")
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+event "southern carriers 1"
+	shipyard "Southbound Advanced"
+		"Finch (Bare Bones)"
+	shipyard "Southbound Advanced"
+		"Barb (Bare Bones)"
+		"Nest (Bare Bones)"
+
+event "southern carriers 2"
+	shipyard "Southbound Advanced"
+		"Boxwing (Expanded Cargo Variant)"
+		"Roost (Bare Bones)"
+		"Skein (Bare Bones)"
+	shipyard "Syndicate Advanced"
+		"Barb (Proton-Bare Bones)"
+	shipyard "Northern Pirates"
+		"Boxwing (Expanded Cargo Variant)"
+	shipyard "Southern Pirates"
+		"Boxwing (Expanded Cargo Variant)"
+	shipyard "Core Pirates"
+		"Boxwing (Expanded Cargo Variant)"
+		
+event "southern carriers 3"
+	shipyard "Tarazed Advanced"
+		"Barb (Bare Bones)"
+		"Finch (Bare Bones)"
+		"Nest" (Bare Bones)
+		"Roost" (Bare Bones)
+		"Skein" (Bare Bones)
+		
+event "dreadnoughts for sale"
+	shipyard "Southbound Advanced"
+		"Dreadnought (Bare Bones)"
+
+event "stack core for sale"
+	shipyard "Southbound Advanced"
+		"Dreadnought (Stack Core)
+		
+event "kestrel available: more weapons"
+	shipyard "Tarazed Advanced"
+		"Kestrel (More Weapons-Bare Bones)"
+event "kestrel available: more engines"
+	set "kestrel available"
+	shipyard "Tarazed Advanced"
+		"Kestrel (More Engines-Bare Bones)"
+event "kestrel available: more shields"
+	set "kestrel available"
+	shipyard "Tarazed Advanced"
+		"Kestrel (More Shields-Bare Bones)"
