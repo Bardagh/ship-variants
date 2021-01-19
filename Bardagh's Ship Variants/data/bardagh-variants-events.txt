@@ -8,14 +8,25 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-event "southern carriers 1"
+mission "Southern Carriers Trigger Addendum"
+	landing
+	invisible
+	to offer
+		has "event: initial deployment 3"
+	on offer
+		event "southern carriers 1 addendum" 90
+		event "southern carriers 2 addendum" 180
+		event "southern carriers 3 addendum" 270
+		fail
+
+event "southern carriers 1 addendum"
 	shipyard "Southbound Advanced"
 		"Finch (Bare Bones)"
 	shipyard "Southbound Advanced"
 		"Barb (Bare Bones)"
 		"Nest (Bare Bones)"
 
-event "southern carriers 2"
+event "southern carriers 2 addendum"
 	shipyard "Southbound Advanced"
 		"Boxwing (Expanded Cargo Variant)"
 		"Roost (Bare Bones)"
@@ -29,30 +40,90 @@ event "southern carriers 2"
 	shipyard "Core Pirates"
 		"Boxwing (Expanded Cargo Variant)"
 		
-event "southern carriers 3"
+event "southern carriers 3 addendum"
 	shipyard "Tarazed Advanced"
 		"Barb (Bare Bones)"
 		"Finch (Bare Bones)"
 		"Nest" (Bare Bones)
 		"Roost" (Bare Bones)
 		"Skein" (Bare Bones)
-		
-event "dreadnoughts for sale"
+
+mission "bare bones dreadnoughts for sale"
+	landing
+	invisible
+	to offer
+		has "event: dreadnoughts for sale"
+	on offer
+		event "bare bones dreadnoughts for sale"
+		fail
+
+event "bare bones dreadnoughts for sale"
 	shipyard "Southbound Advanced"
 		"Dreadnought (Bare Bones)"
-
-event "stack core for sale"
-	shipyard "Southbound Advanced"
-		"Dreadnought (Stack Core)
 		
-event "kestrel available: more weapons"
+mission "stack core dreadnoughts for sale"
+	landing
+	invisible
+	to offer
+		has "FW Stack Core 1C: declined"
+	on offer
+		event "stack core dreadnoughts for sale" 10
+		
+event "stack core dreadnoughts for sale"
+	shipyard "Southbound Advanced"
+		"Dreadnought (Stack Core)"
+
+mission "stack core dreadnoughts heads up"
+	landing
+	invisible
+	to offer
+		has "event: stack core dreadnoughts for sale"
+	on offer
+		log "The Free Worlds has finished adapting their factories to build Dreadnoughts with the new Stack Core reactor. Dreadnoughts with this reactor installed are now available to purchase."
+		conversation
+			`You receive a message from Freya: "More good news, Captain! We've finished adapting our factories to install the new Delta V generator in our Dreadnoughts at time of manufacture; we're calling it the Stack Core. You can buy Dreadnoughts with the new reactor now, or stick to the older model if you prefer proven technology."`
+				decline
+
+mission "Kestrel: More Weapons (Bare Bones)"
+	landing
+	invisible
+	to offer
+		has "kestrel: more weapons"
+	on offer
+		event "bare bones kestrel available: more weapons" 50
+	to complete
+		has "kestrel available"
+
+mission "Kestrel: More Engines (Bare Bones)"
+	landing
+	invisible
+	to offer
+		has "kestrel: more engines"
+	on offer
+		event "bare bones kestrel available: more engines" 50
+	to complete
+		has "kestrel available"
+
+mission "Kestrel: More Shields (Bare Bones)"
+	landing
+	invisible
+	to offer
+		has "kestrel: more shields"
+	on offer
+		event "bare bones kestrel available: more shields" 50
+	to complete
+		has "kestrel available"
+		
+event "bare bones kestrel available: more weapons"
 	shipyard "Tarazed Advanced"
 		"Kestrel (More Weapons-Bare Bones)"
-event "kestrel available: more engines"
+
+event "bare bones kestrel available: more engines"
 	set "kestrel available"
 	shipyard "Tarazed Advanced"
 		"Kestrel (More Engines-Bare Bones)"
-event "kestrel available: more shields"
+
+event "bare bones kestrel available: more shields"
 	set "kestrel available"
 	shipyard "Tarazed Advanced"
 		"Kestrel (More Shields-Bare Bones)"

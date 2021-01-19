@@ -118,7 +118,7 @@ ship "Bactrian" "Bactrian (Bare Bones)"
 		"LP036a Battery Pack"
 		"X1700 Ion Thruster"
 		"X2200 Ion Steering"
-		"Hypderdrive"
+		"Hyperdrive"
 	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive for weeks at a time without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance."
 	description "	Naturally, this versatility also makes it extremely expensive, and the Bactrian is normally only for sale to citizens who have been vetted by the local government of the Deep."
 	description "	This is a bare-bones variant for captains who plan to install their own outfits."
@@ -309,7 +309,6 @@ ship "Dreadnought" "Dreadnought (Bare Bones)"
 		"Hyperdrive"
 	description "The Dreadnought is a new warship that was designed by Southbound Shipyards in order to provide a large capital ship for the Free Worlds fleets, something capable of standing up to a Navy Cruiser or even a Carrier."
 	description "	This is a bare-bones variant for captains who plan to install their own outfits."
-
 
 ship "Dropship" "Dropship (Bare Bones)"
 	outfits
@@ -515,22 +514,22 @@ ship "Kestrel" "Kestrel (More Shields-Bare Bones)"
 ship "Kestrel" "Kestrel (More Weapons-Bare Bones)"
 	add attributes
 		"weapon capacity" 40
-	gun -31 66 "Particle Cannon"
-	gun 31 66 "Particle Cannon"
 	gun -31 66
 	gun 31 66
-	gun -53 61 "Particle Cannon"
-	gun 53 61 "Particle Cannon"
+	gun -31 66
+	gun 31 66
 	gun -53 61
 	gun 53 61
-	gun -75 57 "Torpedo Launcher"
-	gun 75 57 "Torpedo Launcher"
+	gun -53 61
+	gun 53 61
 	gun -75 57
 	gun 75 57
-	turret -7 -4 "Heavy Laser Turret"
-	turret 7 -4 "Heavy Laser Turret"
-	turret -23 14 "Heavy Laser Turret"
-	turret 23 14 "Heavy Laser Turret"
+	gun -75 57
+	gun 75 57
+	turret -7 -4
+	turret 7 -4
+	turret -23 14
+	turret 23 14
 
 	outfits
 		"KP-6 Photovoltaic Panel" 6
