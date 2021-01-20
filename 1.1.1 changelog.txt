@@ -1,4 +1,4 @@
-1.1.1: Added the Modified Argosy to the Trinket shipyard.
+1.1.1: Added a shipyard to Trinket selling bare-bones versions of the Fury, Sparrow, and Modified Argosy.
 
 1.1: Added the bare bones shuttle for the sake of being thorough. Added an event which makes new bare bones versions of very small ships available with the X1050 Ion Engines which become available when said engines do.
 
