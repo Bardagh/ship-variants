@@ -2,4 +2,4 @@ A plugin which adds variants of human ships to select shipyards. No stat changes
 
 Also adds a shipyard to Trinket which sells bare-bones Furies, Sparrows, & Modified Argosies.
 
-I'll make a full list of outfit loadouts up if there's enough interest. This is my first plugin, so I wasn't documenting as I went.
+I'll put together a full list of outfit loadouts if there's enough interest. This is my first plugin, so I wasn't documenting as I went.
